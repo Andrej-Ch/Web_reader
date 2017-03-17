@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OOP2-AndrejCh:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOP2_AndrejCh_jar</output-path>
+    <root id="archive" name="OOP2-AndrejCh.jar">
+      <element id="module-output" name="OOP2-AndrejCh" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="275.0" prefWidth="750.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="app.controller.view.SettingsOverviewController">
+  <Pane prefHeight="-1.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <children>
+      <Label layoutX="38.0" layoutY="30.0" text="Site visit behavior" textAlignment="LEFT" wrapText="false">
+        <font>
+          <Font name="System Bold" size="12.0" />
+        </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="65.0" text="Interval between checks:" />
+      <Slider fx:id="slider" layoutX="65.0" layoutY="105.0" majorTickUnit="10.0" max="100.0" min="2.0" minorTickCount="5" prefWidth="644.0" showTickLabels="true" showTickMarks="true" snapToTicks="false" />
+      <Button layoutX="486.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleSettingsOk" prefWidth="68.0" text="Apply" />
+      <Button layoutX="593.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleSettingsCancel" prefWidth="68.0" text="Close" />
+    </children>
+  </Pane>
+</AnchorPane>

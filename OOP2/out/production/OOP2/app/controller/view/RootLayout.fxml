@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="app.controller.view.RootLayoutController">
+  <!-- TODO Add Nodes -->
+  <top>
+    <MenuBar>
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleMenuAdd" text="Add new website" />
+            <MenuItem mnemonicParsing="false" onAction="#handleThreadAdd" text="Add new thread" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Engine">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleMenuShowWebList" text="Thread list" />
+            <MenuItem mnemonicParsing="false" onAction="#handleStartEngine" text="Start Engine" />
+            <MenuItem mnemonicParsing="false" onAction="#handleStopEngine" text="Stop Engine" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Graphs">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Mood Overview" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Settings" />
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>
